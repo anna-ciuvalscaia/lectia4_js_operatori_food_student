@@ -1,0 +1,20 @@
+<script>
+    //IN: student general mark
+    //OUT: yes/no
+
+    //variable NAMING CONVENTION !!! a..zA..Z_0..9 + camelCase
+
+    // variable
+    studentMark   = +prompt("mark ?")  
+    studentBudget = +prompt("money ?")
+    // constant
+    APROVAL_MARK  =  7.0
+    CONTRACT_COST = 10000
+
+    // studentBudget >= CONTRACT_COST
+
+    approved = studentMark >= APROVAL_MARK || studentBudget >= CONTRACT_COST
+
+    alert( "Is approved? " + approved)
+
+</script>
